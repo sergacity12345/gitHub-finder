@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" >
+    <title>Github Api</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>GitHub Finder</h3>
+        </div>
+        <div class="contain">
+            <div class="box1">
+                <h3>Search Github Users</h3>
+                <p>Enter a username to fetch a user profile info and repos</p>
+                <form class="form">
+                    <input type="text" id="searchUser" placeholder="GitHub username" class="form-control">
+                </form>
+            </div>
+            <br>
+            <div id="profile"></div>
+        </div>
+        
+    </div>
+    <script src="github.js"></script>
+    <script src="UI.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
